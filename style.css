@@ -28,7 +28,6 @@ nav > div > h1{
     font-weight: 500;
     color: white;
     font-family: Space Grotesk;
-    /* falta importar a font */
 }
 
 .coteiner-logo{
@@ -102,4 +101,39 @@ main{
 #icon-card-heart{
     display: flex;
     justify-content: space-between;
+}
+
+
+/* TABLET */
+
+@media (max-width:850px){
+
+    nav{
+        height: 150px;
+    }
+
+    .card{
+        height: 35vh;
+        width: 80vw;
+    }
+    .card h2{
+        font-size: 26pt;
+    }
+    .card  p{
+        font-size: 18pt;
+    }
+    nav div input{
+        width: 80vw;
+    }
+} 
+
+
+@media (max-width:650px){
+    .card{
+        height: 45vh;
+        width: 90vw;
+    }
+    .card h2{
+        font-size: 16pt;
+    }
 }
