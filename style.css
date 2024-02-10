@@ -136,4 +136,7 @@ main{
     .card h2{
         font-size: 16pt;
     }
+    .card p{
+        font-size: 12pt;
+    }
 }
