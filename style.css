@@ -86,7 +86,7 @@ main {
 .card h2 {
     color: white;
     font-family: space grotesk;
-    
+
 }
 
 .card div p {
@@ -155,5 +155,19 @@ main {
 
     .card div span {
         font-size: 25px;
+    }
+}
+
+@media (max-width:260px) {
+    .card {
+        height: 48vh;
+    }
+
+    .card h2 {
+        font-size: 15pt;
+    }
+
+    .card p {
+        font-size: 10pt;
     }
 }
