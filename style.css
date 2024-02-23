@@ -86,7 +86,7 @@ main {
 .card h2 {
     color: white;
     font-family: space grotesk;
-    text-decoration: underline;
+    
 }
 
 .card div p {
@@ -146,6 +146,7 @@ main {
 
     .card h2 {
         font-size: 16pt;
+        text-decoration: underline;
     }
 
     .card p {
